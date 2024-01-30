@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    height: 100vh;
+}
+
+header .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    gap: 40px;
+}
+
+header .each {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 220px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+button {
+    padding: 5px 5px;
+}
